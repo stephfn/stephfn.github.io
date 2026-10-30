@@ -43,13 +43,13 @@ The following projects represent work completed through coursework, collaborativ
 
 ### [DICOM CT Protocol Classification](https://github.com/stephfn/dicom-ct-protocol-classification)
 
-**Focus:** Healthcare analytics, medical imaging metadata, classification, and large language models.
+**Focus:** Healthcare analytics, DICOM metadata, rule-based classification, and large language models.
 
-Developed and evaluated two approaches for classifying CT imaging protocols using DICOM metadata from the LIDC-IDRI dataset. The project compared a rule-based classification system with a zero-shot large language model.
+Developed and evaluated rule-based and zero-shot LLM approaches to classify CT imaging protocols using metadata from the public LIDC-IDRI dataset. Of 1,018 CT series, 573 contained sufficient descriptive information for classification.
 
-The analysis included 573 CT series with usable descriptive metadata. The rule-based approach achieved 97.9% agreement with manually assigned reference labels, compared with 89.9% for the LLM.
+The rule-based classifier achieved 97.9% agreement with manually assigned reference labels, compared with 89.9% for the LLM. Error analysis revealed differences in how the approaches interpreted ambiguous protocol descriptions, highlighting challenges in reference-label consistency and automated classification.
 
-The project also examined classification disagreements, ambiguous metadata, and limitations in the reference-labeling process. These findings illustrate the importance of data quality, transparent evaluation, and human oversight when applying automated classification to scientific and healthcare data.
+**Limitations:** Reference labels were assigned by a single reviewer, and excluding records with insufficient metadata may limit generalizability. The project is an exploratory comparison rather than a clinically validated classification system.
 
 ### [Chemical Data Parsing Pipeline](https://github.com/stephfn/chemical-data-parsing-pipeline)
 
