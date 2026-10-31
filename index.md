@@ -53,13 +53,15 @@ The rule-based classifier achieved 97.9% agreement with manually assigned refere
 
 ### [Chemical Data Parsing Pipeline](https://github.com/stephfn/chemical-data-parsing-pipeline)
 
-**Focus:** Chemical informatics, unstructured data, text processing, and data standardization.
+**Focus:** Chemical informatics, text parsing, data engineering, and entity resolution.
 
-Explores methods for extracting and organizing chemical information from unstructured text, including safety data sheets and other scientific documentation.
+Developed a two-stage Python proof of concept for standardizing unstructured chemical specifications and resolving inconsistent vendor product names against a canonical chemical registry.
 
-The project examines how text processing, chemical identifiers, and similarity-based methods can support the organization and comparison of chemical information.
+The first stage uses regular expressions to extract and validate CAS Registry Numbers and identify purity specifications, reagent grades, and GHS hazard and precautionary codes. Refining the purity extraction logic resolved parsing failures across four illustrative records.
 
-This work reflects my interest in improving access to scientific data that may be distributed across documents, inconsistent naming conventions, and different representation formats.
+The second stage applies character-level TF-IDF and cosine similarity to match vendor descriptions with canonical chemical records. Five known products were matched to their expected records, while an unlisted example was flagged as unmatched.
+
+**Limitations:** The results are based on small demonstration datasets. Matching thresholds are heuristic, and chemical identity requires verification beyond text similarity.
 
 ### [MovieLens Movie Recommender](https://github.com/stephfn/movielens-movie-recommender)
 
