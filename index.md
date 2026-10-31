@@ -105,13 +105,17 @@ The project was particularly valuable as an experience in iterative development.
 
 ### [Housing Price Regression](https://github.com/stephfn/housing-price-regression)
 
-**Focus:** Regression, dimensionality reduction, and predictive analytics.
+**Focus:** Regression modeling, dimensionality reduction, feature scaling, and model evaluation.
 
-Examined housing price prediction using data preprocessing, exploratory analysis, principal component analysis, and regression modeling.
+Explored how Principal Component Analysis (PCA) and feature selection affect linear regression models trained on housing data. The project used 1,460 observations and 229 encoded predictor features.
 
-The project investigated how different features and transformations affect predictive analysis and model evaluation.
+Revisiting the original notebook led me to investigate the relationship between feature scaling and PCA. The initial unscaled PCA approach performed poorly, while a later implementation using StandardScaler and PCA retained 127 components and achieved an R² of 0.841, compared with 0.648 for the baseline model.
 
-It demonstrates the application of statistical and machine learning methods to a structured dataset involving economic and housing characteristics.
+The project also examined MinMaxScaler with variance threshold feature selection, demonstrating that different preprocessing methods serve different analytical purposes.
+
+**Key takeaway:** Understanding the mathematical behavior of preprocessing methods is just as important as knowing how to implement them.
+
+**Limitations:** Results are exploratory because some preprocessing steps occurred before the train/test split.
 
 ### [Pokémon Market Analytics](https://github.com/stephfn/pokemon-market-analytics)
 
