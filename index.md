@@ -87,13 +87,17 @@ The analysis highlights the challenges of translating natural language into stru
 
 ### [Honey Yield Predictive Modeling](https://github.com/stephfn/honey-yield-predictive-model)
 
-**Focus:** Predictive modeling, agricultural data, and collaborative data science.
+**Focus:** Time-series forecasting, predictive modeling, environmental sensor data, and collaborative data science.
 
-A collaborative data science project investigating honey yield prediction using data preparation, exploratory analysis, feature engineering, and machine learning.
+This group project explored whether historical beehive sensor measurements could be used to predict changes in hive weight. The analysis evolved over several milestones, incorporating different forecasting approaches, evaluation methods, and prediction horizons.
 
-The project examined relationships between available variables and honey production, with an emphasis on developing and evaluating predictive approaches.
+I developed the initial data processing and modeling pipeline, established much of the project's early analytical direction, and maintained the shared GitHub repository. As the project progressed, we collaborated on improving the methodology, with David contributing more advanced modeling and evaluation techniques.
 
-This work provided experience in collaborative analysis, coordinating project contributions, and communicating modeling results.
+The project was particularly valuable as an experience in iterative development. Our initial approach had limitations, and subsequent refinements demonstrated how much the choice of prediction horizon, baseline, and evaluation methodology can influence the interpretation of model performance.
+
+**My contributions:** Initial pipeline development, data preparation, project coordination, repository management, and collaborative analysis.
+
+**Key takeaway:** Building an initial working pipeline was only the beginning. Evaluating its limitations and incorporating improvements became an equally important part of the project.
 
 ### [Housing Price Regression](https://github.com/stephfn/housing-price-regression)
 
