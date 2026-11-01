@@ -129,13 +129,15 @@ It emphasizes data acquisition, organization, and querying as important parts of
 
 ### [Loan Prediction Pipeline](https://github.com/stephfn/loan-prediction-pipeline)
 
-**Focus:** Classification, preprocessing pipelines, and hyperparameter tuning.
+**Focus:** Classification, preprocessing pipelines, hyperparameter tuning, and model comparison.
 
-Developed a machine learning pipeline for loan prediction using data preprocessing, feature scaling, and a K-nearest neighbors classifier.
+Developed scikit-learn classification pipelines to predict loan approval outcomes using applicant and financial information. The project initially evaluated K-Nearest Neighbors (KNN), then expanded to compare KNN, Logistic Regression, and Random Forest using five-fold cross-validation.
 
-The project examined the importance of preparing data consistently and evaluating model configurations through hyperparameter tuning.
+The default KNN classifier achieved 78.12% accuracy, increasing to 79.17% after tuning. The expanded model search selected Logistic Regression with a regularization parameter of C = 10, achieving 82.29% test accuracy.
 
-It demonstrates a structured approach to building and assessing a supervised classification workflow.
+**Key finding:** Expanding the comparison beyond a single algorithm produced a greater observed improvement than tuning KNN alone.
+
+**Limitations:** Results are based on one train/test split, complete-case data, and accuracy as the primary evaluation metric. Additional class-level and fairness evaluation would be necessary for a real lending application.
 
 ### [p53 Protein Structure Analysis](https://github.com/stephfn/protein-structure-folding-pipeline)
 
