@@ -151,6 +151,7 @@ The project compared Gaussian Naive Bayes, L1- and L2-regularized Logistic Regre
 **Key finding:** Feature selection produced modest improvements for both evaluated classifiers, demonstrating the tradeoff between reducing dimensionality and preserving predictive information.
 
 **Limitations:** The data were generated using scikit-learn rather than obtained from actual RNA-seq experiments. Results are based on one train/test split and do not establish biological relevance or generalizability to real gene-expression datasets.
+
 ---
 
 ## Additional Work
