@@ -1,8 +1,3 @@
-
----
-layout: default
----
-
 # Data Science Portfolio
 
 Welcome! I'm Stephanie, and this portfolio brings together my work in applied data science, machine learning, and scientific data analysis.
