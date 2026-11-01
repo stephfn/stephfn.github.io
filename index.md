@@ -141,13 +141,9 @@ The default KNN classifier achieved 78.12% accuracy, increasing to 79.17% after 
 
 ### [p53 Protein Structure Analysis](https://github.com/stephfn/protein-structure-folding-pipeline)
 
-**Focus:** Structural biology, scientific computing, and molecular visualization.
+**p53 Structural Bioinformatics Analysis**
 
-Analyzed and visualized an existing p53 protein structure to explore structural characteristics such as residue distances, hydrophobicity, and spatial relationships.
-
-The project applies computational analysis to biological structural data and demonstrates methods for investigating molecular features.
-
-This is a structural analysis and visualization project rather than a system for predicting protein folding.
+Analyzed the experimentally determined p53 DNA-binding domain (PDB 1TUP) using Python and Biopython. Developed interactive 3D visualizations, residue-distance matrices, nonlocal spatial contact analysis, and sequence-based biophysical profiles. The project demonstrates computational protein structure characterization rather than protein folding prediction.
 
 ### [Classification and Feature Selection with Synthetic Data](https://github.com/stephfn/rna-seq-classification-pipeline)
 
