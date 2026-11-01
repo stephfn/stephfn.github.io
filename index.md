@@ -119,13 +119,15 @@ The project also compared unscaled PCA and MinMaxScaler with variance threshold 
 
 ### [Pokémon Market Analytics](https://github.com/stephfn/pokemon-market-analytics)
 
-**Focus:** API data collection, SQL, data cleaning, and market analysis.
+**Focus:** API integration, web data extraction, SQLite, SQL joins, and exploratory market analysis.
 
-Collected and analyzed Pokémon trading card data using an API, data preparation techniques, and SQL queries.
+Developed a multi-source data analysis workflow combining Pokémon battle statistics, PokéAPI attributes, and trading card marketplace pricing information. The project used Python for data cleaning and standardization, SQLite for relational data integration, and SQL joins to construct a consolidated analytical dataset.
 
-The project explored card characteristics and pricing information, demonstrating how external data sources can be collected, structured, and analyzed to investigate market-related questions.
+The final integrated dataset contained 60 records and nine variables. Exploratory visualizations examined average card prices by Pokémon type, rarity classification, and seller country, as well as the relationship between battle statistics and marketplace pricing.
 
-It emphasizes data acquisition, organization, and querying as important parts of the analytical workflow.
+**Key takeaway:** Integrating datasets from different sources requires consistent identifiers and careful interpretation of analytical results.
+
+**Limitations:** The analysis uses a limited sample of marketplace records and does not establish causal relationships between Pokémon characteristics and card values. Two required source CSV files are not included in the repository.
 
 ### [Loan Prediction Pipeline](https://github.com/stephfn/loan-prediction-pipeline)
 
