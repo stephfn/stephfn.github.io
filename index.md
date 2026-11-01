@@ -107,15 +107,15 @@ The project was particularly valuable as an experience in iterative development.
 
 **Focus:** Regression modeling, dimensionality reduction, feature scaling, and model evaluation.
 
-Explored how Principal Component Analysis (PCA) and feature selection affect linear regression models trained on housing data. The project used 1,460 observations and 229 encoded predictor features.
+Explored how Principal Component Analysis (PCA) and feature selection affect linear regression models using the Ames housing dataset. The analysis used 1,460 observations and produced 227 encoded predictors after preprocessing.
 
-Revisiting the original notebook led me to investigate the relationship between feature scaling and PCA. The initial unscaled PCA approach performed poorly, while a later implementation using StandardScaler and PCA retained 127 components and achieved an R² of 0.841, compared with 0.648 for the baseline model.
+Revisiting the original notebook led to corrections in the preprocessing workflow and a closer examination of how feature scaling affects PCA. The baseline linear regression achieved an R² of 0.8786, while StandardScaler followed by PCA retained 127 components and achieved an R² of 0.8409.
 
-The project also examined MinMaxScaler with variance threshold feature selection, demonstrating that different preprocessing methods serve different analytical purposes.
+The project also compared unscaled PCA and MinMaxScaler with variance threshold feature selection. Both reduced dimensionality substantially but performed worse than the baseline.
 
-**Key takeaway:** Understanding the mathematical behavior of preprocessing methods is just as important as knowing how to implement them.
+**Key takeaway:** Dimensionality reduction does not necessarily improve predictive performance, and understanding how preprocessing methods work is essential when interpreting model results.
 
-**Limitations:** Results are exploratory because some preprocessing steps occurred before the train/test split.
+**Limitations:** Results are based on a single train/test split without cross-validation or hyperparameter optimization.
 
 ### [Pokémon Market Analytics](https://github.com/stephfn/pokemon-market-analytics)
 
