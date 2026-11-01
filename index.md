@@ -151,14 +151,15 @@ This is a structural analysis and visualization project rather than a system for
 
 ### [Classification and Feature Selection with Synthetic Data](https://github.com/stephfn/rna-seq-classification-pipeline)
 
-**Focus:** Biological data simulation, classification, and feature selection.
+**Focus:** Synthetic biological data, supervised classification, ANOVA feature selection, and model evaluation.
 
-Investigated machine learning classification and feature selection using a simulated gene-expression dataset.
+Explored how feature selection affects classification performance using a synthetic dataset containing 500 observations, 100 gene-labeled numerical features, and three target classes.
 
-The project compared modeling approaches and examined how selecting different features can influence classification performance.
+The project compared Gaussian Naive Bayes, L1- and L2-regularized Logistic Regression, and Gradient Boosting. ANOVA F-test feature selection reduced the predictor space from 100 to 20 features. After selection, Gaussian Naive Bayes accuracy increased from 61% to 64%, while Gradient Boosting improved from 63% to 66%.
 
-The dataset is synthetic and does not represent actual patient RNA-seq measurements. The project is intended to demonstrate analytical methods relevant to high-dimensional biological data rather than make clinical or biological claims about real patients.
+**Key finding:** Feature selection produced modest improvements for both evaluated classifiers, demonstrating the tradeoff between reducing dimensionality and preserving predictive information.
 
+**Limitations:** The data were generated using scikit-learn rather than obtained from actual RNA-seq experiments. Results are based on one train/test split and do not establish biological relevance or generalizability to real gene-expression datasets.
 ---
 
 ## Additional Work
