@@ -36,6 +36,10 @@ My goal is to continue developing as a data scientist while applying my scientif
 
 The following projects represent work completed through coursework, collaborative assignments, and independent exploration. They demonstrate different stages of the data science workflow, including data collection, preparation, analysis, modeling, evaluation, and interpretation.
 
+### [Credit Card Default Risk](https://github.com/stephfn/stephfn.github.io/tree/main/projects/credit-risk)
+
+Compared logistic regression and random forest on 30,000 historical credit card records. Random forest achieved a slightly higher test ROC-AUC (0.7704 versus 0.7591). A separate cost analysis showed how validation-selected thresholds changed the balance between missed defaults and false alarms under hypothetical cost assumptions.
+
 ### [DICOM CT Protocol Classification](https://github.com/stephfn/dicom-ct-protocol-classification)
 
 **Focus:** Healthcare analytics, DICOM metadata, rule-based classification, and large language models.
