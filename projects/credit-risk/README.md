@@ -1,6 +1,6 @@
 # Beyond Accuracy: Credit Card Default Risk
 
-Stephanie Nord compared logistic regression and random forest on 30,000 historical Taiwanese credit card records. The study evaluated next-month default predictions using ranking metrics, probability calibration, and the estimated costs of two types of classification errors.
+Project that compared logistic regression and random forest on 30,000 historical Taiwanese credit card records. The study evaluated next-month default predictions using ranking metrics, probability calibration, and the estimated costs of two types of classification errors.
 
 [Open the executed Jupyter notebook](credit_risk_analysis.ipynb)
 
