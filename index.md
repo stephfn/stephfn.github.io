@@ -14,7 +14,7 @@ My background in laboratory science has shaped how I approach data analysis. Wor
 
 I am developing my technical skills in Python, SQL, statistical analysis, machine learning, and data visualization, with a particular interest in applications involving healthcare, biotechnology, and scientific research.
 
-My projects include both traditional machine learning problems and domain-specific investigations involving medical imaging metadata, molecular structures, chemical information, and biological data. I am particularly interested in the challenges of transforming complex or inconsistently structured data into information that can be analyzed reliably.
+My projects include both traditional machine learning problems and domain-specific investigations involving molecular structures, chemical information, and biological data. I am particularly interested in the challenges of transforming complex or inconsistently structured data into information that can be analyzed reliably.
 
 Throughout my coursework and independent projects, I have worked with data preparation, exploratory analysis, feature engineering, model development, evaluation, and communicating results. I also explore generative AI and large language models, including their potential applications and limitations in scientific workflows.
 
@@ -26,7 +26,7 @@ My goal is to continue developing as a data scientist while applying my scientif
 
 **Machine Learning:** Classification, regression, recommendation systems, feature engineering, model evaluation, and hyperparameter tuning.
 
-**Scientific and Domain Applications:** Medical imaging metadata, chemical informatics, molecular structure representation, biological data, and scientific data processing.
+**Scientific and Domain Applications:** Chemical informatics, molecular structure representation, biological data, and scientific data processing.
 
 **Tools and Development:** Jupyter Notebook, Git, GitHub, GitHub Pages, and Python-based machine learning libraries.
 
@@ -39,16 +39,6 @@ The following projects represent work completed through coursework, collaborativ
 ### [Credit Card Default Risk](https://github.com/stephfn/stephfn.github.io/tree/main/projects/credit-risk)
 
 Compared logistic regression and random forest on 30,000 historical credit card records. Random forest achieved a slightly higher test ROC-AUC (0.7704 versus 0.7591). A separate cost analysis showed how validation-selected thresholds changed the balance between missed defaults and false alarms under hypothetical cost assumptions.
-
-### [DICOM CT Protocol Classification](https://github.com/stephfn/dicom-ct-protocol-classification)
-
-**Focus:** Healthcare analytics, DICOM metadata, rule-based classification, and large language models.
-
-Developed and evaluated rule-based and zero-shot LLM approaches to classify CT imaging protocols using metadata from the public LIDC-IDRI dataset. Of 1,018 CT series, 573 contained sufficient descriptive information for classification.
-
-The rule-based classifier achieved 97.9% agreement with manually assigned reference labels, compared with 89.9% for the LLM. Error analysis revealed differences in how the approaches interpreted ambiguous protocol descriptions, highlighting challenges in reference-label consistency and automated classification.
-
-**Limitations:** Reference labels were assigned by a single reviewer, and excluding records with insufficient metadata may limit generalizability. The project is an exploratory comparison rather than a clinically validated classification system.
 
 ### [Chemical Data Parsing Pipeline](https://github.com/stephfn/chemical-data-parsing-pipeline)
 
