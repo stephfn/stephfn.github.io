@@ -1,6 +1,6 @@
 # Beyond Accuracy: Credit Card Default Risk
 
-Project that compared logistic regression and random forest on 30,000 historical Taiwanese credit card records. The study evaluated next-month default predictions using ranking metrics, probability calibration, and the estimated costs of two types of classification errors.
+I compared logistic regression and random forest on 30,000 credit card records from Taiwan in 2005 to predict next-month default. I evaluated how well the models ranked default risk and how closely their predicted probabilities matched observed default rates. I also tested how hypothetical costs for missed defaults and false alarms changed the random forest’s decision threshold.
 
 [Open the executed Jupyter notebook](credit_risk_analysis.ipynb)
 
