@@ -38,7 +38,11 @@ The following projects represent work completed through coursework, collaborativ
 
 ### [Credit Card Default Risk](https://github.com/stephfn/stephfn.github.io/tree/main/projects/credit-risk)
 
+**Focus:** Credit risk classification, probability calibration, and cost-sensitive threshold selection.
+
 Compared logistic regression and random forest on 30,000 historical credit card records. Random forest achieved a slightly higher test ROC-AUC (0.7704 versus 0.7591). A separate cost analysis showed how validation-selected thresholds changed the balance between missed defaults and false alarms under hypothetical cost assumptions.
+
+**Limitations:** The data come from Taiwan in 2005. A single random split leaves performance on newer data and other lending populations untested. The cost scenarios use hypothetical penalties.
 
 ### [Chemical Data Parsing Pipeline](https://github.com/stephfn/chemical-data-parsing-pipeline)
 
